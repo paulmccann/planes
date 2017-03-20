@@ -1,0 +1,145 @@
+/*========GLOBAL STYLES===========*/
+
+body {
+  font: 1.2em arial;
+}
+
+*{
+  /*no dot here*/
+  margin: .0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*========CONTENT STYLES===========*/
+
+    /*changed container to wrapper*/
+.wrapper{
+  width: 960px;
+    /*no semicolon in the middle here*/
+  margin:15px; auto;
+  border: 1px solid black;
+}
+
+header, footer {
+  padding: .75em;
+  background: lightgray;
+}
+
+h1 {
+  font-family: 'lobster', cursive;
+  text-align: center;
+}
+
+
+
+article {
+}
+
+aside {
+}
+
+
+
+.main-img {
+  width: 320px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+
+/*========NAV STYLES===========*/
+
+.main-nav ul {
+  padding: 0;
+}
+
+.main-nav li {
+  padding: 30px 0 10px 0px;
+  list-style: none;
+  display: inline;
+  margin-left: 80px;
+  margin-top: 30px;
+
+}
+
+.main-nav li a {
+
+}
+
+
+
+
+
+
+/*========TYPOGRAPHY STYLES===========*/
+
+h2{
+  font-size: 25px;
+  color: darkblue;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h5 {
+  font-size: 18px;
+  color: green;
+  padding: .20em;
+}
+
+body {
+  background: beige;
+}
+
+p {
+  font-size: 15px;
+  padding: .25em;
+  margin-top: 10px;
+}
+
+footer{
+  background: black;
+  color: white;
+}
+
+
+
+/*========form styles========*/
+
+
+.contact-form {
+  width: 100%;
+  margin: 50px;
+}
+
+.contact-form input {
+display: block;  
+width: 300px;
+margin-bottom: 1em;
+line-height: 2em;
+}
+
+
+@media screen and (max-width: 959px) {
+
+
+body {
+  background: lightblue;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+}
+
+#specs {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: red;
+  color: green;
+}
